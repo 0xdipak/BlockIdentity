@@ -8,9 +8,9 @@ module.exports = {
   networks: {
     hardhat: { chainId: 4202 },
     sepolia: {
-      url: "Your RPC Url",
+      url: "RPC URL",
       accounts: [
-        "PrivateKey",
+        "PRIVATE_KEY",
       ],
     },
   },

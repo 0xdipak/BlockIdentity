@@ -70,7 +70,7 @@ contract Identity {
         _;
     }
 
-    function editUser(
+    function createUser(
         string memory userName,
         BasicInfo memory basicInfo,
         ProfessionalInfo memory professionalInfo,
@@ -103,7 +103,7 @@ contract Identity {
         addressToUserName[msg.sender] = userName;
     }
 
-    function createUser(
+    function editUser(
         string memory userName,
         BasicInfo memory basicInfo,
         ProfessionalInfo memory professionalInfo,
