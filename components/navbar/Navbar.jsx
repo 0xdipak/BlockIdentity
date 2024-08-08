@@ -12,7 +12,7 @@ const Navbar = () => {
   `;
 
   return (
-    <div className={navbarClasses}>
+    <div className={`${navbarClasses}`}>
       <div className="flex items-center justify-center">
         <Logo />
         <Menu />

@@ -27,9 +27,9 @@ const ActionButtons = () => {
   };
   useEffect(() => {
     const getUserInfo = async () => {
-      let userInfo = await getUserByAddress(
+      let userInfo = (await getUserByAddress(
         ready ? wallets[0]?.address : "0x0"
-      );
+      ));
       setUserInfo(userInfo);
     };
 
